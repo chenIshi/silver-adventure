@@ -1,0 +1,42 @@
+html
+  html(lang="zh-tw")
+  head 
+    meta(charset="utf-8")
+    title Resume Prototype
+
+    meta(name="description" content="Presentation Using Swipe.js")
+    meta(name="author" content="Chen Ishi")
+
+    meta(name="apple-mobile-web-app-capable" content="yes")
+    meta(name="apple-mobile-web-app-status-bar-style" content="black-translucent")
+
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css")
+
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css")
+
+    link(rel="stylesheet" href="css/style.css")  
+  
+  body
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js")
+    script(src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous")
+    script(src="js/app.js")
+  
+    .swiper-container
+      .swiper-wrapper
+        .swiper-slide
+          h1 Slide 1
+
+        .swiper-slide
+          h1 Slide 2
+
+        .swiper-slide
+          h1 Slide 3
+
+      .swiper-pagination
+
+      .swiper-button-prev
+      .swiper-button-next
+
+      .swiper-scrollbar
