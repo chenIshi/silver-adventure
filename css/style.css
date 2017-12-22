@@ -17,13 +17,12 @@ body {
 }
 .swiper-slide {
   text-align: center;
-  font-size: 18px;
-  background: #fff;
-/* Center slide text vertically */
+}
+.vertical-mid {
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex;
+  display: inline-flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   -webkit-justify-content: center;
@@ -32,4 +31,27 @@ body {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+}
+.vertical-full {
+  height: 100%;
+}
+.pure-u-1-vtop-1-3 {
+  height: 96%;
+  background-color: #f00;
+}
+@expend .pure-u-1;
+.pure-u-1-vbuttom-2-3 {
+  height: 96%;
+  background-color: #008000;
+}
+@expend .pure-u-1;
+@media screen and (max-width: 768px) {
+  .pure-u-1-vtop-1-3 {
+    display: flex !important;
+    height: 38% !important;
+  }
+  .pure-u-1-vbuttom-2-3 {
+    display: flex !important;
+    height: 58% !important;
+  }
 }
