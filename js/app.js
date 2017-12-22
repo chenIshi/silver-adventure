@@ -1,13 +1,12 @@
 $(document).ready(function () {
-  var mySwiper = new mySwiper('.swiper-container', {
-    direction: 'vertical',
+  var mySwiper = new Swiper('.swiper-container', {
     loop: true,
-
 
     pagination: {
       el: '.swiper-pagination',
+      dynamicBullets: true,
     },
-
+/*
     navigation: {
         nextE1: ".swiper-button-next",
         prevE1: '.swiper-button-prev',
@@ -16,5 +15,7 @@ $(document).ready(function () {
     scrollbar: {
         el: '.swiper-scrollbar',
     },
+*/
   })
 });
+
