@@ -68,7 +68,7 @@ body {
   height: 5vmin;
 }
 .little-br {
-  height: 2.4em;
+  line-height: 2vmin;
 }
 .space-1-6 {
   height: 15vmin;
@@ -90,6 +90,9 @@ body {
 .text-align-left {
   text-align: left;
 }
+.title-text {
+  width: 80vmin;
+}
 @media screen and (max-width: 768px) {
   .space-1-5 {
     height: 32vmin;
@@ -99,16 +102,16 @@ body {
     height: 50vmin;
   }
   h1 {
-    font-size: 7.2vmin;
+    font-size: 9vmin;
   }
   h2 {
-    font-size: 4.4vmin;
+    font-size: 5.4vmin;
   }
   h3 {
-    font-size: 3.6vmin;
+    font-size: 4.8vmin;
   }
   p {
-    font-size: 2.4vmin;
+    font-size: 4vmin;
   }
 }
 @font-face {
@@ -117,12 +120,30 @@ body {
   unicode-range: U+4E00-9FFF;
 }
 @font-face {
-  font-family: 'Nanum Pen Script';
+  font-family: 'Amatic SC';
   font-style: normal;
   font-weight: 400;
-  src: local('Nanum Pen'), local('NanumPen'), url("https://fonts.gstatic.com/s/nanumpenscript/v6/2rU8j9ni4k7htGbezV-Yqw2KS3bxlDeV4Kyn1czbwaxPQbQAFl39kIaTyGEQm4tM9NsiBJYzsA-dBugWdIZ9NA.0.woff2") format('woff2');
+  src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url("https://fonts.gstatic.com/s/amaticsc/v11/BvkGNM5i0n2wywBsmOxcFhJtnKITppOI_IvcXXDNrsc.woff2") format('woff2');
   unicode-range: U+00-024F;
 }
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url("https://fonts.gstatic.com/s/amaticsc/v11/DPPfSFKxRTXvae2bKDzp5FtXRa8TVwTICgirnJhmVJw.woff2") format('woff2');
+  unicode-range: U+0000-00FF;
+}
+@font-face {
+  font-family: 'VT323';
+  font-style: normal;
+  font-weight: 400;
+  src: local('VT323 Regular'), local('VT323-Regular'), url("https://fonts.gstatic.com/s/vt323/v9/lo_L7yCDHYN9FAxvMCI1vQ.woff2") format('woff2');
+  unicode-range: U+0000-00FF;
+}
 .eng {
-  font-family: 'Nanum Pen Script';
+  font-family: 'VT323';
+}
+.title-backgd-color {
+  background-color: #434343;
+  color: #fff;
 }
