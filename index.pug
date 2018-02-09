@@ -21,13 +21,14 @@ html
     link(rel="stylesheet" href="css/style.css")  
     link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script")
 
-    script(src="js/app.js")
   
   body
 
     script(src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js")
     script(src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous")
-    
+    script(src="js/app.js")
+  
+
     .swiper-container
 
       .swiper-wrapper
@@ -131,27 +132,31 @@ html
         .swiper-slide 
           .pure-g
             .pure-u-1
-              .space-1-8
-              .space-1-8
-                h1 Backstory
-                //學習經歷
-              .space-1-8
-            .pure-u-1.space-1-5
-              .pure-u-2-5
-              .pure-u-3-5
-                h2.text-align-left 私立港明高中普通科
-            .pure-u-1.space-1-5
-              .pure-u-2-5
-              .pure-u-3-5            
-                h2.text-align-left 國立成功大學電機系
-            .pure-u-1.space-1-5
-              .pure-u-2-5
-              .pure-u-3-5            
-                h2.text-align-left 待續……
+              .space-1-10
+              .space-1-8.title-backgd-color.vertical-mid
+                h1.eng.title-text Backstory
+                //學習背景
+              .space-1-8 
+            .pure-u-1.space-1-8
+              .pure-u-1-8
+              .pure-u-7-8
+                h2.edu-title.text-align-left.eng Kang Ming Senior High
+
+            .pure-u-1.space-2-5
+              .pure-u-1-8
+              .pure-u-7-8
+                p.edu-exp.text-align-left.eng
+                
+            
+            .pure-u-1.space-1-20
+
+            .pure-u-1.space-1-2
+              p.pure-button.backgd-trans(onclick="switch_time_section()") Continue......
+
 
       .swiper-pagination
 
-    script(src="js/app.js")
+
 
 
 <!--     .swiper-button-prev -->
