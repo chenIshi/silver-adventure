@@ -160,6 +160,11 @@ input {
   height: 78%;
   width: 78%;
 }
+#wordpress-img,
+#github-img {
+  height: 33vmin;
+  width: 81vw;
+}
 .title-backgd-color {
   background-color: #434343;
   color: #fff;
