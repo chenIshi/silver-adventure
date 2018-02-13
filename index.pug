@@ -7,8 +7,13 @@ html
     meta(name="description" content="Presentation Using Swipe.js")
     meta(name="author" content="Chen Ishi")
 
+    //full screen in apple product
     meta(name="apple-mobile-web-app-capable" content="yes")
     meta(name="apple-mobile-web-app-status-bar-style" content="black-translucent")
+
+    //for android
+    meta(name="mobile-web-app-capable" content="yes")
+
 
     meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
 
@@ -167,11 +172,11 @@ html
             .pure-u-20-24
               .pure-u-1.space-1-3
                 .pure-img
-                  img#wordpress-img(src="asset/img/wordpress_gif_demo.gif")
+                  img#wordpress-img(src="asset/img/wordpress_gif_demo.gif" onclick="wordpress_link()")
               .pure-u-1.space-1-10
               .pure-u-1.space-1-3
                 .pure-img
-                  img#github-img(src="asset/img/github_gif_demo.gif")
+                  img#github-img(src="asset/img/github_gif_demo.gif" onclick="github_link()")
               .pure-u-1.space-1-10
             .pure-u-1-12
 

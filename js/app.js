@@ -5,6 +5,9 @@ var edu_time_section_num = 3
 
 
 $(document).ready(function () {
+
+  window.scrollTo(0,1);
+
   var mySwiper = new Swiper('.swiper-container', {
     loop: true,
 
@@ -14,6 +17,7 @@ $(document).ready(function () {
     },
 
   })
+  
   edu_btn_times = 0
 
 });
@@ -73,4 +77,10 @@ function switch_time_section(){
     }
 }
 
+function wordpress_link(){
+    window.open('https://chenishi.wordpress.com/','Chen\'s Silver Adventure',config="toolbar=no, location=no, menubar=no, status=no")
+}
 
+function github_link(){
+    window.open('https://github.com/chenIshi','Chen, YI-XI',config="toolbar=no, location=no, menubar=no, status=no")
+}
